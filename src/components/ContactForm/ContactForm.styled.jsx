@@ -38,6 +38,9 @@ export const Button = styled.button`
   border: none;
   border-radius: 30px;
   cursor: pointer;
+  align-items: center;
+    justify-content: center;
+    display: flex;
 
  &:hover {
     background-color: #eeb338;
