@@ -68,7 +68,7 @@ const useAddContact = () => {
 const reset = () => {
   setName('');
   setNumber('');
-  setTimeout(() => setLocalLoading(false), 1000); 
+  setTimeout(() => setLocalLoading(false), 500);
 };
 
 

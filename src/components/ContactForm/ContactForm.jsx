@@ -35,9 +35,9 @@ const ContactForm = () => {
           id={number}
         />
       </FormLabel>
-<Button type="submit">
-  {localLoading ? <Spinner /> : 'Add contact'}
-</Button>
+      <Button type="submit">
+        {localLoading ? <Spinner /> : 'Add contact'}
+      </Button>
 
     </FormContainer>
   );
